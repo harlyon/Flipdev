@@ -1,2 +1,3 @@
 # Flipdev
-Django FullStack App
+Django FullStack App (Learning Purposes)
+#
