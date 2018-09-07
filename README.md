@@ -1,0 +1,2 @@
+# Flipdev
+Django FullStack App
