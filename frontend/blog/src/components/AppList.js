@@ -38,7 +38,7 @@ class AppList extends Component {
                   </a>
                 </div>
                 <div className="post-title">
-                  <h2><Link to={`/${article.id}`}>{article.title}</Link></h2>
+                  <h2><Link to={`/${article.id}`}>{article.title}😁</Link></h2>
                 </div>
                 <div id="attachment_40" style={{width: 590}} className="wp-caption aligncenter">
                   <img src={article.image} alt="A Post With An With A Cheeky Caption" width={580} height={387} className="size-full wp-image-40" sizes="(max-width: 580px) 100vw, 580px" />
