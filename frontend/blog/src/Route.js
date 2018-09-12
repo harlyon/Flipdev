@@ -7,7 +7,7 @@ const BaseRouter = () => {
    return(
         <div>
             <Route exact path ='/' component={AppList}/>
-            <Route exact path ='/:articleID' component={AppDetail}/>
+            <Route exact path ='/:articleid' component={AppDetail}/>
         </div>
    );
 };

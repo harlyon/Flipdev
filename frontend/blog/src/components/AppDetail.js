@@ -14,15 +14,14 @@ class AppDetail extends Component {
       }
    
       componentDidMount() {
-        const articleID = this.props.match.params.articleID;
-        axios.get(`http://localhost:8000/api/&{articleID}`)
+        const articleid = this.props.match.params.articleid
+        axios.get(`http://localhost:8000/api/${articleid}`)
           .then(res => {
             this.setState({ article: res.data });
           })
       }
 
     render() {
-
             const { article } = this.state
 
         return (
@@ -33,6 +32,8 @@ class AppDetail extends Component {
                     <div id="post-11" className="post-11 post type-post status-publish format-standard hentry category-blog">
                 <div className="post-date">
                   <Link to="/">Back to Posts</Link>
+                  <br />
+                  <br />
                 </div>
                 <div className="post-title">
                 <h2>{article.title}</h2>
