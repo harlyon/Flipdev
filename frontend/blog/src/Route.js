@@ -1,7 +1,7 @@
 import React  from 'react';
 import { Route } from 'react-router-dom';
-import AppList from './AppList';
-import AppDetail from './AppDetail';
+import AppDetail from './components/AppDetail';
+import AppList from './components/AppList';
 
 const BaseRouter = () => {
    return(

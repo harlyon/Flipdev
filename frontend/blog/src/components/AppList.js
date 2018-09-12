@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import './App.css';
+import Moment from 'react-moment';
+import '../App.css';
 
 class AppList extends Component {
 
@@ -31,7 +32,9 @@ class AppList extends Component {
               return(
                 <div id="post-11" key={item} className="post-11 post type-post status-publish format-standard hentry category-blog">
                 <div className="post-date">
-                  <a href="/">{article.date}</a>
+                  <a href="/">
+                  <Moment format="YYYY/MM/DD HH:mm">{article.date}</Moment>
+                  </a>
                 </div>
                 <div className="post-title">
                   <h2><a href={`/${item.id}`}>{article.title}</a></h2>

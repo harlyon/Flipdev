@@ -276,3 +276,16 @@ body.search-results #pbd-alp-load-posts { display: none; }
   #sidebar #sidebar-dropdown a:active { opacity: 1; }
   #sidebar #sidebar-mobile-info { display: none; }
   #sidebar #sidebar-mobile-info.mobile-menu-active { display: block !important; } }
+
+  .container {
+    width: 900px;
+    margin: 0px auto;
+  }
+
+  .banner {
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0px;
+    color: #fff;
+  }
