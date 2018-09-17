@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Moment from 'react-moment';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
@@ -34,6 +35,9 @@ class AppDetail extends Component {
                   <Link to="/">Back to Posts</Link>
                   <br />
                   <br />
+                </div>
+                <div className="post-date">
+                  <Moment format="YYYY/MM/DD HH:mm">{article.date}</Moment>
                 </div>
                 <div className="post-title">
                 <h2>{article.title}</h2>
